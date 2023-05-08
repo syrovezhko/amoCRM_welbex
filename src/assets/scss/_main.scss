@@ -1,0 +1,262 @@
+.main {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 114rem;
+  width: 100%;
+  
+  &-first {
+    max-width: 36.2rem;
+    margin-left: -3px;
+
+    
+    &__text {
+      
+      &_logo {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        background: linear-gradient(
+                      92deg,
+                      #FCB045 27.14%,
+                      #FF3F78 121.36%
+                    ),
+                    #E4E5EA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+  }
+
+  &-second {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    &__title {
+      margin-bottom: 4rem;
+    }
+
+    &__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+      margin-left: 1px;
+      margin-right: -2px;
+    }
+  }
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #E4E5EA;
+  width: 27.5rem;
+  margin-top: 3rem;
+
+  &_big {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+  }
+
+  &__left {
+  
+    &_big {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      color: #E4E5EA;
+      margin-top: 1.6rem;
+    }
+  }
+  &-color {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+  }
+}
+
+.card {
+  color:#E4E5EA;
+  display: flex;
+  flex-direction: column;
+  width: 13.5rem;
+  margin-bottom: 3rem;
+  
+  &__title {
+    width: 100%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    /* light text */
+    
+    color: #E4E5EA;
+    margin-bottom: 0.6rem;
+  }
+
+  &__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #E4E5EA;
+  }
+
+}
+
+.button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  /* light text */
+  
+  color: #E4E5EA;
+  background: #4077F3;
+  padding: 2.1rem 3.5rem;
+}
+
+.line {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .main {
+    z-index: 2;
+    padding-left: 1.6rem;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 4rem;
+    margin-top: 0;
+    background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(7.5px);
+    height: 100%;
+
+    &-first {
+
+      &__text {
+        margin: 1.5rem 0 4.5rem;
+        
+        &_logo {
+          font-size: 3.6rem;
+          line-height: 4.4rem;
+          text-fill-color: transparent;
+          margin: 0;
+        }
+      }
+    }
+
+    &-second {
+
+      &__cards {
+        margin-bottom: 5.5rem;
+      }
+    }
+
+  }
+  .text {
+
+    &_big {
+      font-size: 3.6rem;
+      line-height: 4.4rem;
+      margin: 0;
+    }
+
+    &__left {
+
+      &_big {
+        text-align: left;
+        margin: 0 0 2rem;
+      }
+    }
+
+    &-color {
+      text-transform: none;
+    }
+  }
+  .card {
+    // height: 4.8rem;
+    margin: 0 0 1.4rem;
+
+    &__title {
+      display: flex;
+      margin: 0;
+      align-items: center;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 1.6rem;
+      text-align: left;
+    }
+
+    &__text {
+      display: none;
+    }
+  }
+
+  .line {
+    display: flex;
+    margin-right: 0.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    
+    /* gradient */
+    
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .button {
+    display: none;
+  }
+}
