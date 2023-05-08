@@ -1,0 +1,18 @@
+.phone {
+  text-decoration: none;
+  margin-left: auto;
+  margin-bottom: 2.1rem;
+}
+
+.messengers {
+  width: 12rem;
+  margin-left: 4.7rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  &--item {
+    height: 2rem;
+    width: 2rem;
+  }
+}
