@@ -10,7 +10,7 @@ const Header = () => {
       <Logo />
       <div className="header__nav">
         <Nav />
-        <div className="header__nav__contacts">
+        <div className="header__nav__contacts last">
           <Phone style={'last phone header__item'}/>
           <Messengers  style={'last messengers'}/>
         </div>
