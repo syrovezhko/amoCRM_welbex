@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/amoCRM_welbex/build/static/css/main.a04f3afc.css",
+    "main.js": "/amoCRM_welbex/build/static/js/main.528ec525.js",
+    "static/media/part2.svg": "/amoCRM_welbex/build/static/media/part2.33e7081f936debb1445817fb62f6e41b.svg",
+    "static/media/whatsapp.svg": "/amoCRM_welbex/build/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/amoCRM_welbex/build/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "static/media/part1.svg": "/amoCRM_welbex/build/static/media/part1.a60185b2a955d7a8ed3850ac6d004388.svg",
+    "index.html": "/amoCRM_welbex/build/index.html",
+    "static/media/telegram.svg": "/amoCRM_welbex/build/static/media/telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
+    "main.a04f3afc.css.map": "/amoCRM_welbex/build/static/css/main.a04f3afc.css.map",
+    "main.528ec525.js.map": "/amoCRM_welbex/build/static/js/main.528ec525.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04f3afc.css",
+    "static/js/main.528ec525.js"
+  ]
+}
