@@ -155,25 +155,89 @@
   .footer {
     width: 100%;
     flex-direction: column;
-    padding: 1.5rem 1.5rem 6.0rem;
+    padding: 1.3rem 1.6rem 6rem;
+    align-items: flex-start;
+    
 
     &-container {
       z-index: 2;
+      max-height: 72rem;
 
+      &:first-child {
+        margin-bottom: -0.2rem !important;
+      }
+    }
+
+    &__row {
+
+      flex-direction: column;
+      max-height: 60rem;
     }
 
     &-list {
 
+      &:last-child > div {
+        & > p {
+          white-space: normal;
+          margin-right: 2.7rem;
+          
+          &:nth-of-type(1){
+            order: 1;
+            margin-bottom: 2.5rem;
+          }
+          
+          &:nth-of-type(2){
+            order: 2;
+          }
+          
+          &:nth-of-type(3){
+            order: 3;
+          }
+          
+          &:nth-of-type(4){
+            order: 4;
+          }
+          
+          &:nth-of-type(5){
+            order: 5;
+          }
+          
+          &:nth-of-type(6){
+            order: 7;
+          }
+          
+          &:nth-of-type(7){
+            order: 6;
+            margin-bottom: 2.5rem;
+          }
+          
+          &:nth-of-type(8){
+            order: 8;
+          }
+          
+          &:nth-of-type(9){
+            order: 9;
+          }
+          
+          &:nth-of-type(10){
+            order: 10;
+          }
+        }
+      
+      }
+        
+
       &__title {
         font-size: 1.2rem;
         line-height: 1.5rem;
-        margin: 3rem 0 2rem;
+        margin: 1.8rem 0 2rem;
       }
 
       &__block {
         max-height: 16rem;
         max-width: 100%;
         align-items: start;
+        margin-top: 0;
       }
     }
     &-item {
@@ -187,9 +251,17 @@
     &-contacts {
       align-items: start;
 
+      &__container {
+         align-items: flex-start;
+      }
+
       &__address {
         font-size: 1.4rem;
         line-height: 1.7rem;
+      }
+
+      &__title {
+        font-size: 1.2rem;
       }
     }
   }
@@ -197,14 +269,26 @@
     margin: 0;
   }
   .messengers {
-    margin: 0.8rem 0 1rem;
+    margin: 0 0 0.9rem;
+    width: 9.2rem !important;
+
+    &> img {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
   }
 
   .legal {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    text-align: left;
+    align-items: start;
+    margin-top: 5rem;
 
     &__text {}
+  }
+  .list-container {
+    flex-direction: column;
+    max-width: 17.1rem;
+    margin-bottom: 2rem;
   }
 }

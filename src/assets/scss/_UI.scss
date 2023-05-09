@@ -18,3 +18,16 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .phone {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-top: -2px !important;
+    margin-bottom: 0.8rem !important;
+  }
+  .messengers {
+    margin-bottom: 0.9rem;
+  }
+}
