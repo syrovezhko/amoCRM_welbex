@@ -197,13 +197,12 @@
 
       &__cards {
         margin-bottom: 5.5rem;
-        // justify-content: flex-start;
-        // align-items: flex-start;
         max-width: 27.3rem;
         align-self: flex-start;
         width: 100%;
         flex-direction: column;
         max-height: 8rem;
+        margin-bottom: 0;
       }
     }
 
